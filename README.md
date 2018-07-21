@@ -20,10 +20,10 @@ Current build status
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-r--plsdof-green.svg)](https://anaconda.org/conda-forge/r-plsdof)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-plsdof.svg)](https://anaconda.org/conda-forge/r-plsdof)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-plsdof.svg)](https://anaconda.org/conda-forge/r-plsdof)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-plsdof.svg)](https://anaconda.org/conda-forge/r-plsdof)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--plsdof-green.svg)](https://anaconda.org/conda-forge/r-plsdof) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-plsdof.svg)](https://anaconda.org/conda-forge/r-plsdof) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-plsdof.svg)](https://anaconda.org/conda-forge/r-plsdof) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-plsdof.svg)](https://anaconda.org/conda-forge/r-plsdof) |
 
 Installing r-plsdof
 ===================
