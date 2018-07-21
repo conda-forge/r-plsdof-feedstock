@@ -1,4 +1,4 @@
-{% set version = '0.2-7' %}
+{% set version = "0.2-7.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/plsdof_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/plsdof/plsdof_{{ version }}.tar.gz
-  sha256: be303f7b9c9c5ee4429cb5ee48b3e4060fdb6fd6a1ee7fa30bde5b6d414d1ffd
+  sha256: 0ce5ead71593eaa3fc62f6d2d98babf1a6817a5cf3d47cd152b81cdfd462055d
 
 build:
   number: 0
