@@ -14,9 +14,9 @@ source:
   sha256: 0ce5ead71593eaa3fc62f6d2d98babf1a6817a5cf3d47cd152b81cdfd462055d
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -45,8 +45,7 @@ about:
     confidence intervals and the application of test procedures. Further, cross-validation
     procedures for Ridge Regression and Principal Components Regression are available.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
