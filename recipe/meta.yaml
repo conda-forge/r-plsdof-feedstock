@@ -1,6 +1,5 @@
 {% set version = "0.3-2" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-plsdof
@@ -13,8 +12,7 @@ source:
   sha256: 1718c9e05be6ad0114a6f02a6915a7cdee18b923dde9a0ec8624fa9f1c4a13af
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
