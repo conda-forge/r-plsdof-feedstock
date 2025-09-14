@@ -1,4 +1,4 @@
-{% set version = "0.3-2" %}
+{% set version = "0.4-0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plsdof_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plsdof/plsdof_{{ version }}.tar.gz
-  sha256: 1718c9e05be6ad0114a6f02a6915a7cdee18b923dde9a0ec8624fa9f1c4a13af
+  sha256: a7d2e9d77a96148d2d2ad7ec8cbbe1d012f8073f1ab9027568618224b7a82ed0
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
