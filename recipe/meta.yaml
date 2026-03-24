@@ -1,4 +1,4 @@
-{% set version = "0.4-0" %}
+{% set version = "0.5-0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plsdof_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plsdof/plsdof_{{ version }}.tar.gz
-  sha256: a7d2e9d77a96148d2d2ad7ec8cbbe1d012f8073f1ab9027568618224b7a82ed0
+  sha256: 7ec1d0d621ed5abcddd4037dd6bc50549f3e205a54cace6b497b22a2ad0d46d6
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -36,8 +36,8 @@ test:
 about:
   home: https://github.com/fbertran/plsdof
   license: GPL (>= 2)
-  summary: The plsdof package provides Degrees of Freedom estimates for Partial Least Squares (PLS) Regression. Model selection for PLS is based on various information criteria (aic, bic, gmdl) or on cross-validation. Estimates for the mean and covariance of the PLS regression coefficients are available. They allow the construction
-    of approximate confidence intervals and the application of test procedures. Further, cross-validation procedures for Ridge Regression and Principal Components Regression are available.
+  summary: The plsdof package provides Degrees of Freedom estimates for Partial Least Squares (PLS) Regression. Model selection for PLS is based on various information criteria (aic, bic, gmdl) or on cross-validation. Estimates for the mean and covariance of the PLS regression coefficients are available. They allow the
+    construction of approximate confidence intervals and the application of test procedures. Further, cross-validation procedures for Ridge Regression and Principal Components Regression are available.
   license_family: GPL3
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
